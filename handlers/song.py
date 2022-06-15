@@ -80,7 +80,7 @@ def bul(client, message):
         print(e)
 
 @Client.on_message(
-    command(["vbul", "vsong"]) & ~filters.edited
+    command(["song", "song"]) & ~filters.edited
 )
 async def vsong(client, message):
     ydl_opts = {
