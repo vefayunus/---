@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "RusiMusicAsistan"
+        user.first_name = "KafkazMusicAsistan"
     usar = user
     wew = usar.id
     try:
@@ -198,7 +198,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/KarabakhMusicbot"),
+                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/KafkazMusicbot"),
                 InlineKeyboardButton("📣 Kanal", url=f"https://t.me/RiyaddBlog"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
@@ -207,7 +207,7 @@ async def play(_, message: Message):
     )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://images.app.goo.gl/zuYrfvjzi1UNWsx58"
+            thumb_name = "https://images.app.goo.gl/NGSPzanu8UhefmjbA"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -263,7 +263,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/karabakhMusicBot"),
+                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/kafkazMusicBot"),
                 InlineKeyboardButton("📣 Kanal", url=f"https://t.me/RiyaddBlog"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
