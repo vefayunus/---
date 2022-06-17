@@ -9,17 +9,17 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://images.app.goo.gl/NGSPzanu8UhefmjbA",
-                caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Kafkaz Music 🎙️](https://t.me/RiyaddBlog).**"""),
+                caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Karabakh Music 🎙️](https://t.me/RiyaddBlog).**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/KafkazMusicbot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/KarabakhMusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KafkazMusicasistan"
+                        "🔊 Asistan", url="https://t.me/KarabakhMusicasistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Sohbet", url="https://t.me/karabakhteamm"
@@ -131,12 +131,12 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Kafkazusicbot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Karabakhmusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KafkazMusicAsistan"
+                        "🔊 Asistan", url="https://t.me/KarabakhMusicAsistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Sohbet", url="https://t.me/karabakhteamm"
