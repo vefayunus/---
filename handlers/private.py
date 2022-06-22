@@ -131,12 +131,12 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/KarabakhMusicbot?startgroup=true"
+                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/KarabakhMusiccbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KarabakhMusicAsistan"
+                        "🔊 Asistan", url="https://t.me/KarabakhMusicAsistant"
                     ),
                     InlineKeyboardButton(
                         "💬 Söhbət", url="https://t.me/KarabakhTeamm"
