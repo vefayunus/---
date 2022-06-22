@@ -14,12 +14,12 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/Karabakh_Musicc_bot?startgroup=true"
+                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/Karabakhmusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KarabakhMusicasistant"
+                        "🔊 Asistan", url="https://t.me/KarabakhMusicasistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Söhbət", url="https://t.me/KarabakhTeamm"
@@ -131,12 +131,12 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/Karabakh_Musicc_bot?startgroup=true"
+                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/KarabakhMusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KarabakhMusicAsistant"
+                        "🔊 Asistan", url="https://t.me/KarabakhMusicAsistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Söhbət", url="https://t.me/KarabakhTeamm"
