@@ -14,12 +14,12 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/Karabakhmusicbot?startgroup=true"
+                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/Karabakhmusiccbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KarabakhMusicasistan"
+                        "🔊 Asistan", url="https://t.me/KarabakhMusicasistant"
                     ),
                     InlineKeyboardButton(
                         "💬 Söhbət", url="https://t.me/KarabakhTeamm"
