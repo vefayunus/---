@@ -19,7 +19,7 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/@KarabakhmusicAsistant"
+                        "🔊 Asistan", url="https://t.me/KarabakhmusicAsistant"
                     ),
                     InlineKeyboardButton(
                         "💬 Söhbət", url="https://t.me/KMmafiaa"
@@ -131,7 +131,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/Karabakh_Musicbot?startgroup=true"
+                        "➕ ❰ Qrupuna Ekle ❱ ➕", url=f"https://t.me/Karabakh_Musicbot?startgroup=true"
                     )
                 ],
                 [
