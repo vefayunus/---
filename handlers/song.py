@@ -40,7 +40,7 @@ def bul(client, message):
 
     print(query)
 
-    m = message.reply("🔎 Arıyorum...")
+    m = message.reply("🔎 Axtarıram...")
 
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
 
@@ -72,7 +72,7 @@ def bul(client, message):
 
         m.edit(
 
-            "❌ Hiçbir şey bulamadım. Pardon.\n\nBaşka bir anahtar kelime deneyin veya belki düzgün hecele."
+            "❌ Heçbir şey tapmadım. Bağışlayın.\n\nBaşqa bir musiqi adı yoxlayın veya adını düzgün yazın."
 
         )
 
@@ -80,7 +80,7 @@ def bul(client, message):
 
         return
 
-    m.edit("`Şarkı indiriliyor, lütfen bekleyin...⏱`")
+    m.edit("`Mahni yüklənir, xaiş olunur gözləyin...⏱`")
 
     try:
 
@@ -92,7 +92,7 @@ def bul(client, message):
 
             ydl.process_info(info_dict)
 
-        rep = f"☑️ **İsmi**: [{title[:35]}]({link})\n🎬 **Kaynak**: YouTube\n⏱️ **Süre**: `{duration}`\n👁‍🗨 **Görünümler**: `{views}`\n📤 **Tarafından**: @{BOT_USERNAME}"
+        rep = f"☑️ **Musiqi Adı**: [{title[:35]}]({link})\n🎬 **QaynaQ**: YouTube\n⏱️ **Vaxt**: `{duration}`\n👁‍🗨 **Görüntüləmələr**: `{views}`\n📤 **Tərəfindən**: @{KarabakhMusicBot}"
 
         secmul, dur, dur_arr = 1, 0, duration.split(":")
 
