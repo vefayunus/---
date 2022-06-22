@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupuna Ekle ❱ ➕", url=f"https://t.me/KarabakhMusiccbot?startgroup=true"
+                        "➕ ❰ Qrupuna Ekle ❱ ➕", url=f"https://t.me/Karabakh_Musicbot?startgroup=true"
                     )
                 ],
                 [
@@ -131,7 +131,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/KarabakhMusiccbot?startgroup=true"
+                        "➕ ❰ Qrubuna At ❱ ➕", url=f"https://t.me/Karabakh_Musicbot?startgroup=true"
                     )
                 ],
                 [
