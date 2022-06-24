@@ -21,7 +21,7 @@ ACTV_CALLS = []
 @authorized_users_only
 async def durdur(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
-    a = await message.reply_text("▶️ **Müzik duraklatıldı!**\n\n• Müzik kullanımına devam etmek için **komut » devam**")
+    a = await message.reply_text("▶️ **Mahnı dayandırıldı!**\n\n• Mahni kullanımına devam etmek için **komut » devam**")
     await sleep(3)
     await a.delete()
     
@@ -46,7 +46,7 @@ async def stop(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("🙄 **Şu anda müzik çalmıyor**")
+        await message.reply_text("🙄 **Indi heçbirşey mahnı oxumur**")
     else:
         try:
             queues.clear(chat_id)
@@ -55,7 +55,7 @@ async def stop(_, message: Message):
         await callsmusic.pytgcalls.leave_group_call(chat_id)
         await _.send_message(
             message.chat.id,
-            "✅ **Müzik durduruldu !**\n\n• **Userbot sesli sohbet bağlantısı kesildi. !**"
+            "✅ **Mahnı dayandırıldı !**\n\n• **Musiqi asistan səsli söhbət bağlantısı kəsildi.🤦🏾‍♂️!**"
         )
     
 @Client.on_message(command(["atla", "skip"]) & other_filters)
@@ -85,7 +85,7 @@ async def atla(_, message: Message):
                 ),
             )
             
-        a = await message.reply_text("➡️ **Şarkı 💫 Atlatıldı.**")
+        a = await message.reply_text("➡️ **Mahnı 😁 Dəyişilidi.**")
         await sleep(3)
         await a.delete()
 
@@ -147,5 +147,5 @@ async def update_admin(client, message):
     admins[message.chat.id] = new_admins
     await client.send_message(
         message.chat.id,
-        "✅ **Bot yeniden başladı!**\n✅ **Admin listesi güncellendi!**"
+        "✅ **Bot yenidən başlandı!**\n✅ **Admin siyahısı güncəlləndi!**"
     )
