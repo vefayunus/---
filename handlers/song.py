@@ -122,7 +122,7 @@ def bul(client, message):
 
     except Exception as e:
 
-        m.edit("❌ Error")
+        m.edit("❌ Tapılmadı")
 
         print(e)
 
@@ -138,7 +138,7 @@ def bul(client, message):
 
 @Client.on_message(
 
-    command(["vsong", "song"]) & ~filters.edited
+    command(["song", "songs"]) & ~filters.edited
 
 )
 
@@ -206,7 +206,7 @@ async def vsong(client, message):
 
     preview = wget.download(thumbnail)
 
-    await msg.edit("📤 **video yüklüyorum...**")
+    await msg.edit("📤 **video yükləyirəm...**")
 
     await message.reply_video(
 
