@@ -14,12 +14,12 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupuna Ekle ❱ ➕", url=f"https://t.me/Karabakh_Musicbot?startgroup=true"
+                        "➕ ❰ Qurupa Ekle ❱ ➕", url=f"https://t.me/Karabakh_musicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KarabakhmusicAsistant"
+                        "🔊 Asistan", url="https://t.me/@KarabakhmusicAsistantt"
                     ),
                     InlineKeyboardButton(
                         "💬 Söhbət", url="https://t.me/KMmafiaa"
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Əmirlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿🐊", url=f"https://t.me/chinara_blog"
+                        "Rəsmi Kanal 🇦🇿🇩🇪", url=f"https://t.me/chinara_blog"
                     )
                 ]
                 
@@ -131,12 +131,12 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupuna Ekle ❱ ➕", url=f"https://t.me/Karabakh_Musicbot?startgroup=true"
+                        "➕ ❰ Qrupa Ekle ❱ ➕", url=f"https://t.me/Karabakh_musicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KarabakhMusicAsistant"
+                        "🔊 Asistan", url="https://t.me/KarabakhmusicAsistantt"
                     ),
                     InlineKeyboardButton(
                         "💬 Söhbət", url="https://t.me/https://t.me/KMmafiaa"
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Ayarlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿🐊", url=f"https://t.me/chinara_blog"
+                        "Rəsmi Kanal 🇦🇿🇩🇪", url=f"https://t.me/chinara_blog"
                     )
                 ]
                 
