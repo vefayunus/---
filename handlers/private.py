@@ -9,12 +9,12 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://images.app.goo.gl/NGSPzanu8UhefmjbA",
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nmən {bot}!\nSesli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Karabakh Music 🎙️](https://t.me/KoRoLeVa_97).**"""),
+                caption=(f"""**Salam {message.from_user.mention} 🎵\nmən {bot}!\nSesli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [❥︎𝙊𝙬𝙉𝙚𝙍❦︎ 🎙️](https://t.me/KoRoLeVa_97).**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qurupa Ekle ❱ ➕", url=f"https://t.me/Karabakh_musicbot?startgroup=true"
+                        "➕ ❰ Qrupa Ekle ❱ ➕", url=f"https://t.me/Karabakh_musicbot?startgroup=true"
                     )
                 ],
                 [
@@ -126,7 +126,7 @@ async def admin(_, query: CallbackQuery):
 
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
-    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSesli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Karabakh Music 🎙️](https://t.me/KoRoLeVa_97).**""",
+    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSesli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [❥︎𝙊𝙬𝙉𝙚𝙍❦︎🎙️](https://t.me/KoRoLeVa_97).**""",
          reply_markup=InlineKeyboardMarkup(
             [
                 [
