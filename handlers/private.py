@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Ekle ❱ ➕", url=f"https://t.me/Karabakh_musicbot?startgroup=true"
+                        "➕ ❰ Qrupa Ekle ❱ ➕", url=f"https://t.me/Karabakh_Music_bot?startgroup=true"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Əmirlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿🇩🇪", url=f"https://t.me/chinara_blog"
+                        "Rəsmi Kanal 🇦🇿🇩🇪", url=f"https://t.me/Chinara92"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Ana menü🏠", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "⚙ Yaradıcı", url="https://t.me/KoRoLeVa_97")
+                         "⚙ Yaradıcı", url="https://t.me/KoRoLeVa97_bot")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "⚙ Yaradıcı", url="https://t.me/KoRoLeVa_97")
+            "⚙ Yaradıcı", url="https://t.me/KoRoLeVa97_bot")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Yaradıcı", url="https://t.me/KoRoLeVa_97")
+                         "⚙ Yaradıcı", url="https://t.me/KoRoLeVa97_bot")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Yaradıcı", url="https://t.me/KoRoLeVa_97")
+                         "⚙ Yaradıcı", url="https://t.me/KoRoLeVa97_bot")
                  ],
                  [
                      InlineKeyboardButton(
@@ -131,7 +131,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Ekle ❱ ➕", url=f"https://t.me/Karabakh_musicbot?startgroup=true"
+                        "➕ ❰ Qrupa Ekle ❱ ➕", url=f"https://t.me/Karabakh_Music_bot?startgroup=true"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Ayarlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿🇩🇪", url=f"https://t.me/chinara_blog"
+                        "Rəsmi Kanal 🇦🇿🇩🇪", url=f"https://t.me/Chinara_92"
                     )
                 ]
                 
