@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Əmirlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿🇩🇪", url=f"https://t.me/Chinara92"
+                        "Rəsmi Kanal 🇦🇿🇩🇪", url=f"https://t.me/Chinara_92"
                     )
                 ]
                 
